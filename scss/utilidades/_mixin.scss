@@ -1,0 +1,12 @@
+//mixin
+
+@mixin textoalineado {
+    text-align: center;
+    font-size: 36px;
+}
+
+@mixin spantexto {
+    color: $color-negro;
+    font-size: 20px;
+    font-weight: bold;
+}

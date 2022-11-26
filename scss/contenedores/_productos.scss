@@ -1,0 +1,58 @@
+/*Seccion de Productos HTML*/
+
+.section-productos{
+    h1{
+        padding-top: 50px;
+        text-align: center;  
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(366px,1fr));
+        grid-template-rows: repeat(3, 1fr);
+        padding-top: 50px;
+        text-align: center;
+        gap: 15px;
+    }
+    .producto{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border: solid 1px $color-negro;
+        padding: 10px ;
+        &:hover{
+            border: 1px solid $color-borde;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        img{
+            width: 250px;
+        }
+        p{
+            padding-top: 20px;
+        }
+        button{
+            padding: 10px;
+            font-size: 15px;
+            border: none;
+            outline: 0px;
+            background: $color-btnclaro;
+            color: $color-blanco;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: all 300ms ease;
+            cursor: pointer;
+            &:hover{
+                background: $color-btnoscuro;
+                color: $color-negro;
+                box-shadow: 5px 5px 5px -7px rgba(0,0,0,0.68);
+                border-radius: 10px;
+                transition: all 300ms ease;
+                cursor: pointer;
+            }
+        }
+    }
+}

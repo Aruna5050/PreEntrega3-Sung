@@ -1,0 +1,357 @@
+/*RESET*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none; }
+
+/*Index HTML*/
+main {
+  background: #F4F4F4;
+  padding: 40px 20px;
+  margin-top: 30px; }
+  main article {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    background: #fff; }
+    main article h1 {
+      text-align: center;
+      font-size: 36px; }
+    main article h2 {
+      text-align: center;
+      font-size: 36px; }
+    main article p {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: 300px;
+      color: gray; }
+    main article .videoinicio {
+      text-align: center; }
+
+/*Responsive*/
+@media screen and (max-width: 720px) {
+  main article section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    font-size: 0.1em; }
+  .videoinicio {
+    display: none; }
+  p {
+    font-size: 0.9em; } }
+
+/*Seccion de Productos HTML*/
+.section-productos h1 {
+  padding-top: 50px;
+  text-align: center; }
+
+.section-productos .contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(366px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  padding-top: 50px;
+  text-align: center;
+  gap: 15px; }
+
+.section-productos .producto {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+  padding: 10px; }
+  .section-productos .producto:hover {
+    border: 1px solid blueviolet; }
+  .section-productos .producto h2 {
+    font-size: 30px;
+    font-weight: bold; }
+  .section-productos .producto img {
+    width: 250px; }
+  .section-productos .producto p {
+    padding-top: 20px; }
+  .section-productos .producto button {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: 0px;
+    background: #3DDA71;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 300ms ease;
+    cursor: pointer; }
+    .section-productos .producto button:hover {
+      background: #168D06;
+      color: black;
+      box-shadow: 5px 5px 5px -7px rgba(0, 0, 0, 0.68);
+      border-radius: 10px;
+      transition: all 300ms ease;
+      cursor: pointer; }
+
+/*Seccion Como Comprar HTML*/
+.page-header {
+  background-color: #F4F4F4;
+  width: 100%;
+  height: 100px;
+  padding-top: 15px; }
+  .page-header div h2 {
+    color: black;
+    margin-left: 60px;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bolder; }
+
+.user-buy {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 60px; }
+  .user-buy div p span {
+    color: black;
+    font-size: 20px;
+    font-weight: bold; }
+  .user-buy div ol {
+    color: black;
+    font-size: 14px;
+    line-height: 45px;
+    padding-left: 30px; }
+    .user-buy div ol span {
+      color: black;
+      font-size: 20px;
+      font-weight: bold; }
+    .user-buy div ol li ul {
+      padding-left: 28px; }
+      .user-buy div ol li ul span {
+        color: black;
+        font-size: 20px;
+        font-weight: bold; }
+
+/*Responsivve Como-Comprar*/
+@media screen and (max-width: 720px) {
+  p {
+    font-size: 0.9em; }
+  .user-buy {
+    padding: 50px 0px 0px 10px;
+    font-size: 0.8em; }
+  .user-buy div {
+    padding: 0px 15px 5px 10px;
+    text-align: start; }
+  .user-buy div ol {
+    padding-left: 15px; }
+  .page-header {
+    padding-top: 50px;
+    height: 50px;
+    text-align: center; }
+  .page-header div h2 {
+    font-size: 1.3em;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0px; } }
+
+/*Seccion Preguntas Frecuentes HTML*/
+.page-header {
+  background-color: #F4F4F4;
+  width: 100%;
+  height: 100px;
+  padding-top: 15px; }
+  .page-header div h2 {
+    color: black;
+    margin-left: 60px;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bolder; }
+
+.user-content {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 60px; }
+  .user-content div p {
+    color: black;
+    font-size: 14px;
+    line-height: 45px; }
+    .user-content div p span {
+      color: black;
+      font-size: 20px;
+      font-weight: bold; }
+
+/*Responsive*/
+@media screen and (max-width: 720px) {
+  p {
+    font-size: 0.9em; }
+  .user-content {
+    padding: 50px 0px 0px 10px;
+    font-size: 0.8em; }
+  .user-content div {
+    padding: 0px 15px 5px 10px;
+    text-align: start; }
+  .user-content div ol {
+    padding-left: 15px; }
+  .user-content div p span {
+    font-size: 1.3em;
+    text-align: center; }
+  .user-content div li span {
+    font-size: 1.3em;
+    text-align: center; }
+  .page-header {
+    padding-top: 50px;
+    height: 50px;
+    text-align: center; }
+  .page-header div h2 {
+    font-size: 1.3em;
+    padding-top: 15px;
+    text-align: center;
+    margin: 0px; } }
+
+/*Seccion de Contactos*/
+.contenedor-formulario {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px; }
+  .contenedor-formulario div h2 {
+    margin-bottom: 15px;
+    font-size: 35px; }
+  .contenedor-formulario div p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px; }
+  .contenedor-formulario div a {
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700; }
+    .contenedor-formulario div a i {
+      color: #3DDA71;
+      margin-right: 10px; }
+  .contenedor-formulario form .campo, .contenedor-formulario form textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #3DDA71;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px; }
+  .contenedor-formulario form textarea {
+    max-width: 600px;
+    min-width: 600px;
+    min-height: 140px;
+    max-height: 150px; }
+  .contenedor-formulario form .btn-enviar {
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: 0px;
+    background: #3DDA71;
+    color: white;
+    border-radius: 10px;
+    transition: all 300ms ease;
+    cursor: pointer; }
+    .contenedor-formulario form .btn-enviar:hover {
+      background: #168D06; }
+
+/*Footer - Pie de Pagina*/
+.pie-pagina {
+  width: 100%;
+  background-color: #000; }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+    .pie-pagina .grupo-1 .box figure {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .pie-pagina .grupo-1 .box figure img {
+        width: 250px; }
+    .pie-pagina .grupo-1 .box h2 {
+      color: #fff;
+      margin-bottom: 25px;
+      font-size: 20px; }
+    .pie-pagina .grupo-1 .box p {
+      color: #efefef;
+      margin-bottom: 10px; }
+    .pie-pagina .grupo-1 .box .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #fff;
+      margin-right: 10px;
+      background-color: gray;
+      text-align: center;
+      transition: all 300ms ease; }
+      .pie-pagina .grupo-1 .box .red-social a:hover {
+        color: aqua; }
+  .pie-pagina .grupo-2 {
+    background-color: #000;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff; }
+    .pie-pagina .grupo-2 small {
+      font-size: 15px; }
+      .pie-pagina .grupo-2 small span a {
+        text-decoration: none;
+        color: #fff; }
+        .pie-pagina .grupo-2 small span a:hover {
+          color: aqua; }
+    .pie-pagina .grupo-2 .boton-wsp {
+      position: fixed;
+      width: 55px;
+      height: 55px;
+      line-height: 55px;
+      bottom: 30px;
+      right: 30px;
+      background: #0df053;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+      z-index: 100; }
+      .pie-pagina .grupo-2 .boton-wsp:hover {
+        text-decoration: none;
+        color: #0df053;
+        background: #fff; }
+
+/*Responsive MD*/
+@media screen and (max-width: 720px) {
+  .contenedor-formulario {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; }
+  .contenedor-formulario form .campo {
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 50px;
+    max-height: 50px; }
+  .contenedor-formulario form textarea {
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 140px;
+    max-height: 150px; }
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px; } }
