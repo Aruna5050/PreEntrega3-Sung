@@ -1,5 +1,5 @@
 {
-  "name": "preentrega2-hongsung",
+  "name": "PreEntrega3-Sung",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aruna5050/PreEntrega2-HongSung.git"
+    "url": "git+https://github.com/Aruna5050/PreEntrega3-Sung.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aruna5050/PreEntrega2-HongSung/issues"
+    "url": "https://github.com/Aruna5050/PreEntrega3-Sung/issues"
   },
-  "homepage": "https://github.com/Aruna5050/PreEntrega2-HongSung#readme",
+  "homepage": "https://github.com/Aruna5050/PreEntrega3-Sung#readme",
   "devDependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
