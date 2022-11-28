@@ -16,7 +16,7 @@ main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 40px;
-    background: #fff; }
+    background: #FFFFFF; }
     main article h1 {
       text-align: center;
       font-size: 36px; }
@@ -60,7 +60,7 @@ main {
   gap: 15px; }
 
 .section-productos .producto {
-  background-color: #fff;
+  background-color: #FFFFFF;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -83,7 +83,7 @@ main {
     border: none;
     outline: 0px;
     background: #3DDA71;
-    color: #fff;
+    color: #FFFFFF;
     border-radius: 10px;
     font-weight: bold;
     transition: all 300ms ease;
@@ -110,7 +110,7 @@ main {
     font-weight: bolder; }
 
 .user-buy {
-  background-color: #fff;
+  background-color: #FFFFFF;
   width: 100%;
   padding-top: 20px;
   padding-left: 60px; }
@@ -170,7 +170,7 @@ main {
     font-weight: bolder; }
 
 .user-content {
-  background-color: #fff;
+  background-color: #FFFFFF;
   width: 100%;
   padding-top: 20px;
   padding-left: 60px; }
