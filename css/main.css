@@ -74,7 +74,16 @@ main {
     font-size: 30px;
     font-weight: bold; }
   .section-productos .producto img {
-    width: 250px; }
+    width: 250px;
+    animation-name: escalar;
+    animation-duration: 2s;
+    animation-delay: 0.2s; }
+
+@keyframes escalar {
+  0% {
+    transform: scale(0.6); }
+  100% {
+    transform: scale(1); } }
   .section-productos .producto p {
     padding-top: 20px; }
   .section-productos .producto button {
