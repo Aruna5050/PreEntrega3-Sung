@@ -10,20 +10,17 @@
     margin-top: 90px;
     div{
         h2{
-            margin-bottom: 15px;
-            font-size: 35px;
-        }
-        p{
-            font-size: 16px;
-            line-height: 1.6;
             margin-bottom: 30px;
+            font-size: 35px;
+            border-bottom: 1px solid $color-bordecontacto;
         }
         a{
             font-size: 18px;
             text-decoration: none;
             display: inline-block;
+            border-bottom: 1px solid $color-bordecontacto;
             width: 100%;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             color: black;
             font-weight: 700;
             i{

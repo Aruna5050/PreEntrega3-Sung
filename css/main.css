@@ -229,18 +229,16 @@ main {
   grid-gap: 50px;
   margin-top: 90px; }
   .contenedor-formulario div h2 {
-    margin-bottom: 15px;
-    font-size: 35px; }
-  .contenedor-formulario div p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-size: 35px;
+    border-bottom: 1px solid #e8e8e9; }
   .contenedor-formulario div a {
     font-size: 18px;
     text-decoration: none;
     display: inline-block;
+    border-bottom: 1px solid #e8e8e9;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: black;
     font-weight: 700; }
     .contenedor-formulario div a i {
