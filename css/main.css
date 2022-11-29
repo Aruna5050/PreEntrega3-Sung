@@ -91,7 +91,9 @@ main {
   100% {
     transform: scale(1); } }
   .section-productos .producto p {
-    padding-top: 20px; }
+    padding-top: 20px;
+    margin-left: 0px;
+    text-align: left; }
   .section-productos .producto button {
     padding: 10px;
     font-size: 15px;
