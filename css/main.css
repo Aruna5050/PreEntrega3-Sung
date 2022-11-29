@@ -231,12 +231,12 @@ main {
   .contenedor-formulario div h2 {
     margin-bottom: 30px;
     font-size: 35px;
-    border-bottom: 1px solid #e8e8e9; }
+    border-bottom: 1px solid #E8E8E9; }
   .contenedor-formulario div a {
     font-size: 18px;
     text-decoration: none;
     display: inline-block;
-    border-bottom: 1px solid #e8e8e9;
+    border-bottom: 1px solid #E8E8E9;
     width: 100%;
     margin-bottom: 20px;
     color: black;
