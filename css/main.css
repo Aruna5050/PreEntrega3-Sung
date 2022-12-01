@@ -254,10 +254,10 @@ main {
     outline: 0px; }
   .contenedor-formulario form textarea {
     max-width: 600px;
-    min-width: 600px;
     min-height: 140px;
     max-height: 150px; }
   .contenedor-formulario form .btn-enviar {
+    display: flex;
     padding: 15px;
     font-size: 15px;
     border: none;
@@ -270,10 +270,16 @@ main {
     .contenedor-formulario form .btn-enviar:hover {
       background: #168D06; }
 
-/* RESPONSIVE BTN SUNMIT*/
+/* RESPONSIVE BTN SUBMIT*/
+@media screen and (max-width: 880px) {
+  .campo, textarea {
+    width: 100%; }
+  textarea {
+    max-width: 600px;
+    min-width: 400px; } }
+
 @media screen and (max-width: 720px) {
   .contenedor-formulario .btn-enviar {
-    display: flex;
     flex-wrap: wrap; } }
 
 /*Footer - Pie de Pagina*/
