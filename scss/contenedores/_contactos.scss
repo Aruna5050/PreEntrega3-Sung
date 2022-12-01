@@ -63,7 +63,9 @@
 }
 
 /* RESPONSIVE BTN SUNMIT*/
-.contenedor-formulario .btn-enviar{
-    display: flex;
-    flex-wrap: wrap;
+@media screen and (max-width: 720px){
+    .contenedor-formulario .btn-enviar{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

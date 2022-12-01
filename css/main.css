@@ -271,9 +271,10 @@ main {
       background: #168D06; }
 
 /* RESPONSIVE BTN SUNMIT*/
-.contenedor-formulario .btn-enviar {
-  display: flex;
-  flex-wrap: wrap; }
+@media screen and (max-width: 720px) {
+  .contenedor-formulario .btn-enviar {
+    display: flex;
+    flex-wrap: wrap; } }
 
 /*Footer - Pie de Pagina*/
 .pie-pagina {
