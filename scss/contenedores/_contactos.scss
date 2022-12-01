@@ -79,6 +79,20 @@
 
 @media screen and (max-width: 720px){
 
+    .contenedor-formulario form .campo{
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 50px;
+        max-height: 50px;
+    }
+
+    .contenedor-formulario form textarea{
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+
     .contenedor-formulario .btn-enviar{
         flex-wrap: wrap;
     }

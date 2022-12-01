@@ -102,20 +102,6 @@
         flex-direction: column;
     }
 
-    .contenedor-formulario form .campo{
-        max-width: 350px;
-        min-width: 350px;
-        min-height: 50px;
-        max-height: 50px;
-    }
-
-    .contenedor-formulario form textarea{
-        max-width: 350px;
-        min-width: 350px;
-        min-height: 140px;
-        max-height: 150px;
-    }
-
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
