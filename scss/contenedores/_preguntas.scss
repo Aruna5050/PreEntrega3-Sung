@@ -16,8 +16,7 @@
 .user-content{
     background-color: $color-blanco;
     width: 100%;
-    padding-top: 20px;
-    padding-left: 60px;
+    padding: 20px 100px 10px 60px;
     div{
         p{
             color: $color-negro;
@@ -49,6 +48,10 @@
 
     .user-content div ol{
         padding-left: 15px;
+    }
+
+    .user-content div p{
+        line-height: 2em;
     }
 
     .user-content div p span{

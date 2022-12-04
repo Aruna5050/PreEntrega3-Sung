@@ -125,11 +125,10 @@ main {
 .user-buy {
   background-color: #FFFFFF;
   width: 100%;
-  padding-top: 20px;
-  padding-left: 60px; }
+  padding: 20px 100px 10px 60px; }
   .user-buy div p span {
     color: black;
-    font-size: 20px;
+    font-size: 1.1em;
     font-weight: bold; }
   .user-buy div ol {
     color: black;
@@ -138,13 +137,13 @@ main {
     padding-left: 30px; }
     .user-buy div ol span {
       color: black;
-      font-size: 20px;
+      font-size: 1.1em;
       font-weight: bold; }
     .user-buy div ol li ul {
       padding-left: 28px; }
       .user-buy div ol li ul span {
         color: black;
-        font-size: 20px;
+        font-size: 1.1em;
         font-weight: bold; }
 
 /*Responsivve Como-Comprar*/
@@ -159,6 +158,8 @@ main {
     text-align: start; }
   .user-buy div ol {
     padding-left: 15px; }
+  .user-buy div ol li {
+    line-height: 2.3em; }
   .page-header {
     padding-top: 50px;
     height: 50px;
@@ -180,15 +181,14 @@ main {
 .user-content {
   background-color: #FFFFFF;
   width: 100%;
-  padding-top: 20px;
-  padding-left: 60px; }
+  padding: 20px 100px 10px 60px; }
   .user-content div p {
     color: black;
     font-size: 14px;
     line-height: 45px; }
     .user-content div p span {
       color: black;
-      font-size: 20px;
+      font-size: 1.1em;
       font-weight: bold; }
 
 /*Responsive*/
@@ -203,6 +203,8 @@ main {
     text-align: start; }
   .user-content div ol {
     padding-left: 15px; }
+  .user-content div p {
+    line-height: 2em; }
   .user-content div p span {
     font-size: 1.3em;
     text-align: center; }

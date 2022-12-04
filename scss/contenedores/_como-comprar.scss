@@ -16,8 +16,7 @@
 .user-buy{
     background-color: $color-blanco;
     width: 100%;
-    padding-top: 20px;
-    padding-left: 60px;
+    padding: 20px 100px 10px 60px;
     div{
         p{
             span{
@@ -63,6 +62,10 @@
 
     .user-buy div ol{
         padding-left: 15px;
+    }
+
+    .user-buy div ol li{
+        line-height: 2.3em;
     }
 
     .page-header{
