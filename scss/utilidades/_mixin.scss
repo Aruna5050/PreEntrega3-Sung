@@ -2,7 +2,8 @@
 
 @mixin textoalineado {
     text-align: center;
-    font-size: 36px;
+    font-size: 1.5em;
+    padding-top: 10px;
 }
 
 @mixin spantexto {

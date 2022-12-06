@@ -1,5 +1,5 @@
 {
-  "name": "PreEntrega3-Sung",
+  "name": "Proyecto-Final-Sung",
   "version": "1.0.0",
   "description": "Papelera Green Bolsas Tienda de Productos de Embalaje y Gastronomicos",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aruna5050/PreEntrega3-Sung.git"
+    "url": "git+https://github.com/Aruna5050/Proyecto-Final-Sung.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aruna5050/PreEntrega3-Sung/issues"
+    "url": "https://github.com/Aruna5050/Proyecto-Final-Sung/issues"
   },
-  "homepage": "https://github.com/Aruna5050/PreEntrega3-Sung#readme",
+  "homepage": "https://github.com/Aruna5050/Proyecto-Final-Sung#readme",
   "devDependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"

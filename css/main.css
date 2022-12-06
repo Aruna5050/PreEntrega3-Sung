@@ -25,10 +25,12 @@ main {
     background: #FFFFFF; }
     main article h1 {
       text-align: center;
-      font-size: 36px; }
+      font-size: 1.5em;
+      padding-top: 10px; }
     main article h2 {
       text-align: center;
-      font-size: 36px; }
+      font-size: 1.5em;
+      padding-top: 10px; }
     main article p {
       margin-top: 20px;
       font-size: 18px;
